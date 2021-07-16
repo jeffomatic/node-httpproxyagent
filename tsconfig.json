@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [ "ES6" ],
+    "module": "CommonJS",
+    "baseUrl": ".",
+
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "typeRoots": [ "./node_modules/@types" ],
+
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
